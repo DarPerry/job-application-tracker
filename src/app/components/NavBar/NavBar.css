@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.header__brand {
+  font-family: "DM Sans", sans-serif;
+  font-size: 150%;
+}
+.header__nav {
+  display: inline-flex;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 40px;
+  box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
+}
+.header__nav-item {
+  color: #83818c;
+  padding: 20px;
+  text-decoration: none;
+  margin: 0 6px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=NavBar.css.map */
